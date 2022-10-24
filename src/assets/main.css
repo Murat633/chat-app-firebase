@@ -1,0 +1,117 @@
+body {
+  background: #3d3d3d;
+  color: #444;
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 150px auto;
+  border-radius: 7px;
+  box-shadow: 2px 4px 6px rgba(28, 6, 49, 0.1);
+  background: white;
+}
+
+
+.home {
+  text-align: left;
+  padding: 20px 50px;
+}
+button {
+  text-decoration: none;
+  background:#b33939;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top:40px;
+  cursor: pointer;
+}
+
+h2{
+  color:#3d3d3d;
+  border:2px solid #444;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+h3{
+  color:white
+}
+h4{
+  color:#b33939
+}
+
+form {
+  width: 350px;
+  margin: 2px auto;
+  text-align: center;
+}
+ label {
+  display: inline-block;
+  margin: 20px 0 10px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+  margin: 10px auto;
+  outline: none;
+}
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+  color:#b33939;
+  cursor: pointer;
+}
+
+.error{
+  color:#ef5777;
+  font-weight: bold;
+}
+
+nav {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav p {
+  margin: 2px auto;
+  font-size: 16px;
+  color: #b33939;
+}
+nav p.email {
+  font-size: 14px;
+  color: #999;
+}
+
+.chat-window {
+  background: #fafafa;
+  padding: 30px 20px;
+}
+.single {
+  margin: 18px 0;
+  
+}
+.created-at {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.name {
+  font-weight: bold;
+  margin-right: 6px;
+  color:black;
+}
+.messages {
+  max-height: 300px;
+  overflow: auto;
+  float: auto;
+  margin-left:50px;
+}
+
